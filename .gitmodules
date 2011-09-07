@@ -49,3 +49,6 @@
 [submodule "sites/all/modules/location"]
 	path = sites/all/modules/location
 	url = http://git.drupal.org/project/location.git
+[submodule "sites/all/modules/panels"]
+	path = sites/all/modules/panels
+	url = git://git.drupal.org/project/panels.git
