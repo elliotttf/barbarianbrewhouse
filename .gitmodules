@@ -19,3 +19,6 @@
 [submodule "sites/all/modules/date"]
 	path = sites/all/modules/date
 	url = git://git.drupal.org/project/date.git
+[submodule "sites/all/modules/extlink"]
+	path = sites/all/modules/extlink
+	url = git://git.drupal.org/project/extlink.git
