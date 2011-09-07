@@ -31,3 +31,6 @@
 [submodule "sites/all/modules/google_analytics"]
 	path = sites/all/modules/google_analytics
 	url = git://git.drupal.org/project/google_analytics.git
+[submodule "sites/all/modules/imageapi"]
+	path = sites/all/modules/imageapi
+	url = git://git.drupal.org/project/imageapi.git
