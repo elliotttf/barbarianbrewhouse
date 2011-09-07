@@ -1,0 +1,3 @@
+[submodule "sites/all/modules/addtoany"]
+	path = sites/all/modules/addtoany
+	url = git://git.drupal.org/project/addtoany.git
