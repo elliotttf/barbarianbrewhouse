@@ -67,3 +67,6 @@
 [submodule "sites/all/modules/transliteration"]
 	path = sites/all/modules/transliteration
 	url = git://git.drupal.org/project/transliteration.git
+[submodule "sites/all/modules/vertical_tabs"]
+	path = sites/all/modules/vertical_tabs
+	url = git://git.drupal.org/project/vertical_tabs.git
