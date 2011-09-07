@@ -25,3 +25,6 @@
 [submodule "sites/all/modules/filefield"]
 	path = sites/all/modules/filefield
 	url = git://git.drupal.org/project/filefield.git
+[submodule "sites/all/modules/gmap"]
+	path = sites/all/modules/gmap
+	url = http://git.drupal.org/project/gmap.git
