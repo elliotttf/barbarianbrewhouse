@@ -43,3 +43,6 @@
 [submodule "sites/all/modules/jquery_ui"]
 	path = sites/all/modules/jquery_ui
 	url = git://git.drupal.org/project/jquery_ui.git
+[submodule "sites/all/modules/lightbox2"]
+	path = sites/all/modules/lightbox2
+	url = git://git.drupal.org/project/lightbox2.git
