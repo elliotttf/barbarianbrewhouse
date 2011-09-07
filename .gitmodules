@@ -16,3 +16,6 @@
 [submodule "sites/all/modules/cck"]
 	path = sites/all/modules/cck
 	url = git://git.drupal.org/project/cck.git
+[submodule "sites/all/modules/date"]
+	path = sites/all/modules/date
+	url = git://git.drupal.org/project/date.git
