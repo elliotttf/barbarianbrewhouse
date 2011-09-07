@@ -52,3 +52,6 @@
 [submodule "sites/all/modules/panels"]
 	path = sites/all/modules/panels
 	url = git://git.drupal.org/project/panels.git
+[submodule "sites/all/modules/pathauto"]
+	path = sites/all/modules/pathauto
+	url = git://git.drupal.org/project/pathauto.git
