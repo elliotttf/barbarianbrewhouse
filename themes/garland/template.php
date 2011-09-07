@@ -1,5 +1,4 @@
 <?php
-// $Id$
 
 /**
  * Sets the body-tag class attribute.
@@ -68,6 +67,9 @@ function phptemplate_menu_local_tasks() {
   return menu_primary_local_tasks();
 }
 
+/**
+ * Returns the themed submitted-by string for the comment.
+ */
 function phptemplate_comment_submitted($comment) {
   return t('!datetime — !username',
     array(
@@ -76,6 +78,9 @@ function phptemplate_comment_submitted($comment) {
     ));
 }
 
+/**
+ * Returns the themed submitted-by string for the node.
+ */
 function phptemplate_node_submitted($node) {
   return t('!datetime — !username',
     array(

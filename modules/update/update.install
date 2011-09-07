@@ -1,5 +1,4 @@
 <?php
-// $Id$
 
 /**
  * Implementation of hook_install().
@@ -28,7 +27,6 @@ function update_uninstall() {
   foreach ($variables as $variable) {
     variable_del($variable);
   }
-  menu_rebuild();
 }
 
 /**

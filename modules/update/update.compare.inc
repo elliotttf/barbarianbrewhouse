@@ -1,5 +1,4 @@
 <?php
-// $Id$
 
 /**
  * @file
@@ -690,7 +689,13 @@ function update_filter_project_info($info) {
     'package',
     'project',
     'project status url',
-    'version', 
+    'version',
   );
-  return array_intersect_key($info, drupal_map_assoc($whitelist));
+  $whitelist = array_flip($whitelist);
+  foreach ($info as $key => $value) {
+    if (!isset($whitelist[$key])) {
+      unset($info[$key]);
+    }
+  }
+  return $info;
 }
