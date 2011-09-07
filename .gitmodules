@@ -4,3 +4,6 @@
 [submodule "sites/all/modules/admin_menu"]
 	path = sites/all/modules/admin_menu
 	url = git://git.drupal.org/project/admin_menu.git
+[submodule "sites/all/modules/calendar"]
+	path = sites/all/modules/calendar
+	url = git://git.drupal.org/project/calendar.git
