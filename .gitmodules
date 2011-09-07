@@ -34,3 +34,6 @@
 [submodule "sites/all/modules/imageapi"]
 	path = sites/all/modules/imageapi
 	url = git://git.drupal.org/project/imageapi.git
+[submodule "sites/all/modules/imagecache"]
+	path = sites/all/modules/imagecache
+	url = git://git.drupal.org/project/imagecache.git
