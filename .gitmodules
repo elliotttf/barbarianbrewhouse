@@ -61,3 +61,6 @@
 [submodule "sites/all/modules/rules"]
 	path = sites/all/modules/rules
 	url = git://git.drupal.org/project/rules.git
+[submodule "sites/all/modules/token"]
+	path = sites/all/modules/token
+	url = git://git.drupal.org/project/token.git
