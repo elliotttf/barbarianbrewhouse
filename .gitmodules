@@ -22,3 +22,6 @@
 [submodule "sites/all/modules/extlink"]
 	path = sites/all/modules/extlink
 	url = git://git.drupal.org/project/extlink.git
+[submodule "sites/all/modules/filefield"]
+	path = sites/all/modules/filefield
+	url = git://git.drupal.org/project/filefield.git
