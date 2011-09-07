@@ -46,3 +46,6 @@
 [submodule "sites/all/modules/lightbox2"]
 	path = sites/all/modules/lightbox2
 	url = git://git.drupal.org/project/lightbox2.git
+[submodule "sites/all/modules/location"]
+	path = sites/all/modules/location
+	url = http://git.drupal.org/project/location.git
