@@ -40,3 +40,6 @@
 [submodule "sites/all/modules/imagefield"]
 	path = sites/all/modules/imagefield
 	url = git://git.drupal.org/project/imagefield.git
+[submodule "sites/all/modules/jquery_ui"]
+	path = sites/all/modules/jquery_ui
+	url = git://git.drupal.org/project/jquery_ui.git
