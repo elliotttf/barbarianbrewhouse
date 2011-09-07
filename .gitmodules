@@ -28,3 +28,6 @@
 [submodule "sites/all/modules/gmap"]
 	path = sites/all/modules/gmap
 	url = http://git.drupal.org/project/gmap.git
+[submodule "sites/all/modules/google_analytics"]
+	path = sites/all/modules/google_analytics
+	url = git://git.drupal.org/project/google_analytics.git
