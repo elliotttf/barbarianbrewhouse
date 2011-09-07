@@ -64,3 +64,6 @@
 [submodule "sites/all/modules/token"]
 	path = sites/all/modules/token
 	url = git://git.drupal.org/project/token.git
+[submodule "sites/all/modules/transliteration"]
+	path = sites/all/modules/transliteration
+	url = git://git.drupal.org/project/transliteration.git
