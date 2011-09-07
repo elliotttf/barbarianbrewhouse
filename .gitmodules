@@ -7,3 +7,6 @@
 [submodule "sites/all/modules/calendar"]
 	path = sites/all/modules/calendar
 	url = git://git.drupal.org/project/calendar.git
+[submodule "sites/all/modules/captcha"]
+	path = sites/all/modules/captcha
+	url = git://git.drupal.org/project/captcha.git
