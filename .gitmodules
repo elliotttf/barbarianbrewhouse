@@ -58,3 +58,6 @@
 [submodule "sites/all/modules/recaptcha"]
 	path = sites/all/modules/recaptcha
 	url = git://git.drupal.org/project/recaptcha.git
+[submodule "sites/all/modules/rules"]
+	path = sites/all/modules/rules
+	url = git://git.drupal.org/project/rules.git
