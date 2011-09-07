@@ -1,0 +1,33 @@
+; $Id: absynthe.info,v 1.1.2.3 2009/08/31 15:53:28 hoainam12k Exp $
+name = absynthe
+description = Convert from Wordpress theme by <a class="link" target="_blank" href="http://www.vannyneo.com/">Neo</a>
+version = VERSION
+core = 6.x
+engine = phptemplate
+stylesheets[all][] = style.css
+stylesheets[print][] = print.css
+
+; Information added by drupal.org packaging script on 2009-01-14
+version = "6.9"
+project = "drupal"
+datestamp = "1231976413"
+
+regions[right] = right
+regions[search_box] = search_box
+regions[footer_left] = footer_left
+regions[footer_right] = footer_right
+
+features[] = name
+features[] = slogan
+features[] = mission
+features[] = node_user_picture
+features[] = comment_user_picture
+features[] = search
+features[] = favicon
+features[] = primary_links
+; Information added by drupal.org packaging script on 2009-08-31
+version = "6.x-1.4"
+core = "6.x"
+project = "absynthe"
+datestamp = "1251734702"
+

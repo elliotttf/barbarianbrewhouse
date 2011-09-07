@@ -1,0 +1,178 @@
+/*------------------------------------------------------------------------
+# Absynthe - June 7, 2009
+# ------------------------------------------------------------------------
+# Author: Christopher Wallace
+# Converted to Drupal by Neo Khuat
+# Website: http://vannyneo.com  -  Email: hoainam12k@gmail.com
+-------------------------------------------------------------------------*/
+
+body { margin: 0; padding: 0; font: 12px Arial, Helvetica, sans-serif; color:#5b3825; background: black url(images/body-bg.gif) no-repeat center top; text-align: center; line-height: 1.6em; }
+a,
+a:visited { color: #a51e2a; text-decoration: none; }
+a:hover,
+a:active { padding-bottom: 3px; background:url(images/line-separator-trans.png) repeat-x bottom left; }
+a img { border:0 }
+h1 { font:25px normal Georgia, "Times New Roman", Times, serif }
+h2 { font:1.4em Georgia, "Times New Roman", Times, serif }
+h3 { font-size:1em; margin-bottom: 0; }
+fieldset { margin: 0; padding: 0; border: 0 }
+pre { width: 500px; overflow-x: scroll; background-color:#DFD7C3; padding: 5px; }
+label { display:block; margin: 10px 0 5px 0; }
+#container { margin: 0 auto; width: 934px; text-align: left; position: relative }
+#container .feed-icon { position: absolute; top: 31px; right: 0; background: url(images/wood_rss_32x32-trans.png) no-repeat top left; display: block; width: 32px; height: 32px; text-indent: -9000px; overflow: hidden }
+.navigation { margin: 20px 0; height: 27px; }
+.alignleft { float:left; margin: 0 10px 10px 0; }
+.alignright { float:right; margin: 0 0 10px 10px; }
+.aligncenter { text-align: center; float:none }
+.posted { margin-bottom: 10px; }
+.download { display: inline-block; padding: 5px 10px; font:22px Georgia, "Times New Roman", Times, serif; color:#384D92; text-decoration:none; line-height: 32px; border-radius: 4px; -moz-border-radius: 4px; -webkit-border-radius: 4px }
+/* header styles */
+#header { text-align:left }
+#header h1 { margin: 30px 0 33px 0; padding: 0; color: white; font-size: 24px; text-align: left }
+#header h1 a { color: white; background: none; }
+#header h1 span { color: #BF9B8F; font: italic 15px Georgia, "Times New Roman", Times, serif; border: 0; background: none; text-indent: 5px }
+#header ul,
+#header ul li { margin: 0; padding: 0; list-style: none; }
+#header ul { height: 48px; float: left; }
+#header ul li { float: left; }
+#header ul li a { display: block; font: 15px "Times New Roman", Times, serif; padding: 15px 10px; color: #BF9B8F; text-decoration: none; background: none; border-bottom: 1px solid #7D160E; }
+#header ul li a:hover { color: #FFFFFF; border-bottom: 1px solid #E62845; }
+#header .searchbox { }
+#header form { float:right; width: 260px; margin-top: 13px; background: url(images/search-input-trans.png) no-repeat top left; }
+#header fieldset { margin: 0; padding: 0; border: 0; }
+#header form input#edit-search-theme-form-1 { background: none; border:none; margin: 2px 8px 0 10px; color: #cb8280; width: 150px; }
+#header form input#edit-submit-1 { background:#9F3B3B; border: 1px solid #620b0b; color: #DFA7A7; }
+#main { margin: 40px 0 0 0; clear: both; }
+#content { display: inline; float: left; width: 635px; margin-left: 0; }
+#content div.inner div.bottombg { background: transparent url(images/post-footer.png) no-repeat bottom left; padding: 0 30px 30px 100px }
+#content div.inner div.bottombg .buffer { margin-right: 30px;}
+#content div.inner div.mainbg,
+#content .panel-2col-stacked,
+#comments { position: relative; background: transparent url(images/post-middle.png) repeat-y top left; margin-bottom: 20px; }
+#content div.inner h1 { margin: 0; padding:30px 40px 10px 100px; background: transparent url(images/post-header.png) no-repeat top left; color: #532e19 }
+#content div.inner h1 a,
+.nonenodepage h2 { color: #532e19; border: 0; }
+.nonenodepage h2 {font:25px normal Georgia, "Times New Roman", Times, serif}
+#content div.inner .numbercomments { position: absolute; top: 10px; right: -15px; background: transparent url(images/comments-trans.png) no-repeat top left; width: 70px; height: 58px; text-align: center; font: 25px Georgia, "Times New Roman", Times, serif; color: #1c3b95; line-height: 60px; }
+#content div.inner .numbercomments a { color: #1c3b95; border: 0; text-indent: none; }
+#content div.posted { color:#94644a; padding-bottom: 10px; }
+#content .postfooter { background:url(images/line-separator-trans.png) repeat-x top left; padding: 5px 0; }
+#content .calendar { position: absolute; background:url(images/calendar-trans.png) no-repeat top left; width: 130px; height: 180px; float: left; margin: 0; text-align: left }
+#content .calendar small { font: 10px Arial, Helvetica, sans-serif; margin: 20px 0 0 20px; color: white; line-height: 1.5em; text-transform:uppercase; display: block }
+#content .calendar strong { font: bold 22px Arial, Helvetica, sans-serif; color: white; margin: 0 0 0 20px; line-height: 0.9em; display: block }
+#content .navigation .alignleft { margin-left: 15px }
+#content .navigation .alignright { margin-right: 15px }
+#home #content .navigation a { color: #E26568 }
+#sidebar { float: left; width: 275px; margin-left: 23px; }
+#sidebar a { background: none; }
+#sidebar a:hover { text-decoration: underline }
+#sidebar div.main { width: 275px; background: transparent url(images/sidebar-middle-bg.jpg); margin-bottom: 20px; }
+#sidebar div.middle { background:transparent url(images/sidebar-top-bg.jpg) no-repeat top left; padding-top: 25px }
+#sidebar div.bottom { background:transparent url(images/sidebar-bottom-bg.jpg) no-repeat bottom left; padding: 0 20px 25px 20px }
+#sidebar h2 { margin: 0 0 10px 0; padding: 0 0 10px 0; background:url(images/line-separator-trans.png) repeat-x bottom left; }
+#sidebar ul,
+#sidebar ul li { margin: 0 0 0 0; padding: 0; list-style:none; }
+#sidebar ul { margin: 0 0 10px 0; }
+#sidebar .twitter { background: url(images/tweet-bg-trans.png) no-repeat bottom right; min-height: 160px; margin: 0; padding-bottom: 10px; }
+#sidebar .twitter li { font: 12px Georgia, "Times New Roman", Times, serif; color:#873333; margin: 0 60px 20px 0; }
+#sidebar .twitter li span { font-size: 12px; color: #CF7474 }
+#sidebar .twitter li:first-child { font-size: 21px; margin: 0 0 20px 0; }
+.listcomments { padding: 20px 30px; margin: 0; background:url(images/line-separator-trans.png) repeat-x bottom left; }
+.listcomments strong { font:18px Georgia, "Times New Roman", Times, serif }
+.listcomments .author a { color: black }
+.comment-author img { float: left; margin: 0 15px 10px 0 }
+#comments { padding: 15px 0 }
+#comments div.comment-body { clear:both; margin: 0 0 0 64px }
+#comments h2 { margin-left: 30px }
+#comments h3,
+#comments form { margin: 10px 0 25px 96px; }
+.form-submit { background: #4c0b07; color: #FFF; border: 1px solid #763a1e }
+.pager li a.active { color: #E26568 }
+.pager-current { color: #FFF }
+.item-list .pager li { padding: 0 }
+.item-list .pager li a { padding: 0.5em }
+#footer { clear: both; text-align: center; margin: 0; padding: 7px 0 0 0; list-style: none; color: white; background:url(images/footer-inner-bg.gif); }
+#footer .inner { width: 934px; text-align: left; margin: 0 auto; }
+#footer h4 { margin-top: 15px; font: italic 15px Georgia, "Times New Roman", Times, serif; color:#F7E880; }
+#footer h4 img { vertical-align:text-bottom }
+#footer a { color:white; }
+#footer a:hover { color:#FFFF66; border-bottom: 1px solid white; background: none; text-decoration: none }
+#footer .lastfm { float: left; width: 650px; }
+#footer #lastfmrecords { height: 200px; }
+#footer #lastfmrecords,
+#footer #lastfmrecords li { margin: 0; padding: 0; list-style-type: none; }
+#footer #lastfmrecords li { float: left; }
+#footer #lastfmrecords li a { background: none; display: block; width: 66px; height: 66px; margin: 0 20px 20px 0; }
+#footer #lastfmrecords li a:hover { border: none; }
+#footer #lastfmrecords li a img { border: 2px solid black; width: 64px; height: 64px }
+#footer #lastfmrecords li a:hover img { border: 2px solid white; }
+#footer .recentcomments { width: 250px; float: right; }
+#footer .recentcomments ul,
+#footer .recentcomments ul li { margin: 0; padding: 0; list-style: none; color:#ccc }
+#footer .recentcomments ul a { color: white; background: none; }
+#footer .recentcomments ul a:hover { background: none; border-bottom: 1px solid white }
+#footer .credits { clear: both; padding: 10px 0; }
+.search-form { background: transparent url(images/post-middle.png) repeat-y top left; padding: 15px }
+.search-form { margin: 0; }
+.nonenodepage {margin-bottom: 20px;background: transparent url(images/post-middle.png) repeat-y top left;}
+.nonenodepage .nnbottom { background: transparent url(images/post-footer.png) no-repeat bottom left; padding: 5px 15px 30px}
+.inner .box { background: transparent url(images/post-middle.png) repeat-y top left; padding: 0 15px 15px }
+/* Clear Styles */
+.clearboth { clear: both }
+/* Clearfix */
+* html .clearfix {
+    height: 1%; /* IE5-6 */
+}
+
+.clearfix {
+    display: inline-block; /* IE7xhtml*/
+}
+
+html[xmlns] .clearfix {
+    display: block; /* O */
+}
+
+.clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+    line-height: 0;
+    font-size: 1px;
+    overflow: hidden;
+}
+
+.front #content {
+  width: 100%
+}
+
+.front .front-twitter-pane {
+  margin: -5px 0 0 48px;
+}
+
+.menu-social-link {
+  float: left;
+  margin-right: 5px;
+}
+
+.panel-2col-stacked .panel-pane {
+  padding: 10px 0 0 10px;
+}
+
+.beer-title {
+  font: 2.0em Georgia, "Times New Roman", Times, serif;
+}
+
+.site-icon {
+  margin-top: -10px;
+  float: left;
+  height: 100px;
+}
+
+a.site-icon:hover,
+a.site-icon:active { 
+  padding-bottom: 0;
+  background: none; 
+}
+
