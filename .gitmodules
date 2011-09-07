@@ -37,3 +37,6 @@
 [submodule "sites/all/modules/imagecache"]
 	path = sites/all/modules/imagecache
 	url = git://git.drupal.org/project/imagecache.git
+[submodule "sites/all/modules/imagefield"]
+	path = sites/all/modules/imagefield
+	url = git://git.drupal.org/project/imagefield.git
