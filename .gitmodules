@@ -73,3 +73,6 @@
 [submodule "sites/all/modules/views"]
 	path = sites/all/modules/views
 	url = git://git.drupal.org/project/views.git
+[submodule "sites/all/themes/rootcandy"]
+	path = sites/all/themes/rootcandy
+	url = git://git.drupal.org/project/rootcandy.git
